@@ -1,0 +1,6 @@
+[submodule "modules/MMM-AutoDimmer"]
+	path = modules/MMM-AutoDimmer
+	url = https://github.com/Fifteen15Studios/MMM-AutoDimmer
+[submodule "modules/MMM-NowPlayingOnSpotify"]
+	path = modules/MMM-NowPlayingOnSpotify
+	url = https://github.com/raywo/MMM-NowPlayingOnSpotify

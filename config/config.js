@@ -71,10 +71,10 @@ let config = {
 					{	
 						fetchInterval: 24 * 60 * 60 * 1000,
 						symbol: "calendar",
-						url: "nextcloud.example.com",
+						url: "https://nextcloud.manosfiles.de/remote.php/dav/calendars/ange/personal?export",
 						auth: {
-								user: "user",
-								pass: 'pass',
+								user: "ange",
+								pass: 'Angelo4ek!',
 								method: "basic"
 							}
 					}
@@ -125,9 +125,9 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
-				location: "city",
-				locationID: "ID", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "your_key",
+				location: "Bendorf",
+				locationID: "2951111", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "dc24cdebbf1afe9650c4f8d5100198a2",
 				decimalSymbol: ","
 			}
 		},
@@ -138,9 +138,9 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "forecast",
-				location: "city",
-				locationID: "ID", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "your_key",
+				location: "Bendorf",
+				locationID: "2951111", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "dc24cdebbf1afe9650c4f8d5100198a2",
 				roundTemp: true
 			}
 		},
